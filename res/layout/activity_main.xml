@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true">
+    
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <Button
+	        android:id="@+botao/bluetoothOff"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/ico_bluetooth_off"/>
+	     <Button
+	        android:id="@+botao/bluetoothOn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:visibility="gone"
+	        android:background="@drawable/ico_bluetooth_on"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+botao/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_off"/>
+
+        <Button
+            android:id="@+botao/on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_liga_off"/>
+
+        <Button
+            android:id="@+botao/off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_desliga_on"/>
+
+        <Button
+            android:id="@+botao/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_off"/>
+
+    </LinearLayout>
+
+	
+    <TextView 
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="valor"
+        android:visibility="gone"
+        android:textColor="#5F5F5F"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <Button
+	        android:id="@+botao/lightOff"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/ico_light_off"/>
+	     <Button
+	        android:id="@+botao/lightOn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone"
+	        android:background="@drawable/ico_light_on"/>
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	     <Button
+	        android:id="@+botao/buzz"
+	        android:layout_alignParentBottom="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/bt_buzz"/>
+    </RelativeLayout>
+    
+    
+</RelativeLayout>

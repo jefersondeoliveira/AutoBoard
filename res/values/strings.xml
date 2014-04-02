@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoBoard</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="conectar">Desconectar</string>
+	<string name="desconectar">Conectar</string>
+	<string name="bt_nao_disponivel">Bluetooth não está disponível.</string>
+	<string name="bt_nao_foi_ativado">Bluetooth não foi ativado.</string>
+	<string name="macFalha">Erro ao recuperar o endereço MAC.</string>
+	<string name="menu_sobre">Sobre</string>
+	<string name="texto_menu_sobre">Aplicativo criado por Eduardo Silva, 2013.\n\nSe você quiser entrar em contato comigo, meu endereço de e-mail pode ser encontrado no meu blog.</string>
+	<string name="website_url">http://arduino-droid.blogspot.com.br/</string>
+	<string name="websiteButton">visite o blog</string>
+	<string name="okButton">OK</string>
+	<string name="aguarde">Espere por favor</string>
+	<string name="conectando_ao_dispositivo">Conectando ao dispositivo bluetooth...</string>
+	<string name="falha_ao_conectar">Falha ao conectar ao dispositivo.</string>
+	
+	<string name="ligar">Ligar</string>
+	<string name="desligar">Desligar</string>
+	<string name="led">Controle de led</string>
+	
+	<!-- DeviceListActivity -->
+	 <string name="escaneando">Procurando dispositivos...</string>
+	 <string name="selecionar_dispositivo">Selecione um dispositivo</string>
+	 <string name="nenhum_pareado">Nenhum dispositivo foi pareado</string>
+	 <string name="nenhum_encontrado">​​Nenhum dispositivo encontrado</string>
+	 <string name="titulo_dispositivos_pareados">Dispositivos pareados</string>
+	 <string name="titulo_outros_dispositivos">Outros Dispositivos Disponíveis</string>
+	 <string name="botao_escanear">Procurar dispositivos</string>
+</resources>
